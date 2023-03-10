@@ -1,0 +1,17 @@
+/build
+/cache
+/data
+/temp
+
+json.hpp
+
+/env/*/
+!/env/*.sh
+!/env/*.dockerfile
+
+/.vscode
+
+
+*.log
+*.png
+*.pyc
