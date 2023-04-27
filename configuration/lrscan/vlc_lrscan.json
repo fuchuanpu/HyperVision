@@ -10,7 +10,7 @@
     },
     "edge_construct": {
         "length_bin_size": 10,
-        "edge_long_line": 20,
+        "edge_long_line": 15,
         "edge_agg_line": 20
     },
     "graph_analyze": {
