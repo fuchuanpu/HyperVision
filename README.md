@@ -6,24 +6,19 @@
 A demo of the flow interaction graph based attack traffic detection system, i.e., HyperVision:
 
 ___Detecting Unknown Encrypted Malicious Traffic in Real Time via Flow Interaction Graph Analysis___  
-In the $30^{th}$ Network and Distributed System Security Symposium, [NDSS'23](https://sites.google.com/site/qili2012).  
+In the $30^{th}$ Network and Distributed System Security Symposium ([NDSS'23](https://www.ndss-symposium.org/ndss-paper/detecting-unknown-encrypted-malicious-traffic-in-real-time-via-flow-interaction-graph-analysis/)).  
 [Chuanpu Fu](https://www.fuchuanpu.cn), [Qi Li](https://sites.google.com/site/qili2012), and [Ke Xu](http://www.thucsnet.org/xuke.html).  
 
 
-> Upload is not completed yet.
-
-<br/>
-
+> Do wharever you like to do :stuck_out_tongue_winking_eye:.
 
 
 ## __0x00__ Hardware
----
-- AWS EC2 c4.4xlarge, Canonical Ubuntu 22.04 LTS amd64 (2023-03-03).
+- AWS EC2 c4.4xlarge, 100GB SSD, canonical `Ubuntu` 22.04 LTS (amd64, 3/3/2023).
 - Tencent Cloud CVM, _with similar OS and hardware configurations_.
 
-
 ## __0x01__ Software
----
+The demo can be built from a clean `Ubuntu` env.
 
 ```bash
 # Establish env.
@@ -39,11 +34,17 @@ rm $_
 # Build and run HyperVision.
 ./script/rebuild.sh
 ./script/expand.sh
-cd build && ../script/run_all_brute.sh
+cd build && ../script/run_all_brute.sh && cd ..
+
+# Analyze the results.
+cd ./result_analyze
+./batch_analyzer.py -g brute
+cat ./log/brute/*.log | grep AU_ROC
+cd -
 ```
 
 ## __0x02__ Reference
----
+Please feel free to contact me :grin:.
 ``` bibtex
 @inproceedings{NDSS23-HyperVision,
   author    = {Chuanpu Fu and
