@@ -33,7 +33,7 @@ unzip ${DOWNLOAD_FILENAME}
 mv ${UNZIP_DIR_NAME} ${DIR_NAME}
 cd $_
 
-python scripts/mk_make.py
+python3 scripts/mk_make.py
 cd build
 make -j 64
 sudo make install

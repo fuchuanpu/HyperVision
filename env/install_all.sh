@@ -2,6 +2,9 @@
 
 set -eux
 
+apt update
+apt install python3-pip cmake ninja-build libpcap-dev unzip -y
+
 BASE_NAME=$(basename $(pwd))
 
 readonly BASE_NAME
