@@ -20,10 +20,10 @@
     #define CLUSTERING_SHORT
     #if defined(CLUSTERING_LONG)
         // #define LONG_CRITICAL_RESULT_PRINT
-        #define LONG_RESULT_PRINT
+        // #define LONG_RESULT_PRINT
     #endif
     #if defined(CLUSTERING_SHORT)
-        #define SHORT_RESULT_PRINT
+        // #define SHORT_RESULT_PRINT
     #endif
 
 #endif

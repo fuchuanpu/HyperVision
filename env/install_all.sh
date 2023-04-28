@@ -26,7 +26,7 @@ apt install libmlpack-dev mlpack-bin libarmadillo-dev -y
 apt install libgflags-dev -y
 
 # Install other python libraries
-pip3 install matplotlib sklearn
+pip3 install matplotlib scikit-learn
 
 cd env
 chmod +x install_z3.sh

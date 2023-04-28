@@ -27,5 +27,5 @@ ARR=(
 )
 
 for item in ${ARR[@]}; do
-    ./HyperVision -config ../configuration/bruteforce/${item}.json > ../cache/${item}.log &
+    ./HyperVision -config ../configuration/bruteforce/${item}.json > ../cache/${item}.log # &
 done

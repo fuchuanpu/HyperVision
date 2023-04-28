@@ -19,5 +19,5 @@ ARR=(
 )
 
 for item in ${ARR[@]}; do
-    ./HyperVision -config ../configuration/lrscan/${item}.json > ../cache/${item}.log &
+    ./HyperVision -config ../configuration/lrscan/${item}.json > ../cache/${item}.log # &
 done
