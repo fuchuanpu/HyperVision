@@ -10,7 +10,7 @@ In the $30^{th}$ Network and Distributed System Security Symposium ([NDSS'23](ht
 [Chuanpu Fu](https://www.fuchuanpu.cn), [Qi Li](https://sites.google.com/site/qili2012), and [Ke Xu](http://www.thucsnet.org/xuke.html).  
 
 
-> Do wharever you like to do :stuck_out_tongue_winking_eye:.
+> Please feel free to contact me :grin:.
 
 
 ## __0x00__ Hardware
@@ -44,7 +44,6 @@ cd -
 ```
 
 ## __0x02__ Reference
-Please feel free to contact me :grin:.
 ``` bibtex
 @inproceedings{NDSS23-HyperVision,
   author    = {Chuanpu Fu and
