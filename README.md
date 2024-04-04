@@ -10,7 +10,8 @@ In the $30^{th}$ Network and Distributed System Security Symposium ([NDSS'23](ht
 [Chuanpu Fu](https://www.fuchuanpu.cn), [Qi Li](https://sites.google.com/site/qili2012), and [Ke Xu](http://www.thucsnet.org/xuke.html).  
 
 
-> Please feel free to contact me :grin:.
+> Due to budget constraints and the high volume of downloads, our previous cloud provider has suspended and removed our dataset distribution service 🔥.
+> We are currently in the process of testing a new CDN. 
 
 
 ## __0x00__ Hardware
