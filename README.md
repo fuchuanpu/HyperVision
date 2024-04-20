@@ -10,8 +10,7 @@ In the $30^{th}$ Network and Distributed System Security Symposium ([NDSS'23](ht
 [Chuanpu Fu](https://www.fuchuanpu.cn), [Qi Li](https://sites.google.com/site/qili2012), and [Ke Xu](http://www.thucsnet.org/xuke.html).  
 
 
-> Due to budget constraints and the high volume of downloads, our previous cloud provider has suspended and removed our dataset distribution service 🔥.
-> We are currently in the process of testing a new CDN. 
+> The new CDN for the dataset has been successfully established. Please feel free to explore and utilize it! 🍺
 
 
 ## __0x00__ Hardware
@@ -28,7 +27,7 @@ cd HyperVision
 sudo ./env/install_all.sh
 
 # Download dataset.
-wget https://hypervision-publish.s3.cn-north-1.amazonaws.com.cn/hypervision-dataset.tar.gz
+wget https://www.fuchuanpu.xyz/hypervision-dataset.tar.gz
 tar -xxf hypervision-dataset.tar.gz
 rm $_
 
