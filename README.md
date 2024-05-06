@@ -27,7 +27,7 @@ cd HyperVision
 sudo ./env/install_all.sh
 
 # Download dataset.
-wget https://www.fuchuanpu.xyz/hypervision-dataset.tar.gz
+wget https://www.hypervision.fuchuanpu.xyz/hypervision-dataset.tar.gz
 tar -xxf hypervision-dataset.tar.gz
 rm $_
 
